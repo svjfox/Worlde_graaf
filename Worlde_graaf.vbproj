@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{0C7F2178-1B12-4E11-AFE9-C971CC967078}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>Worlde_graaf</RootNamespace>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".git\ms-persist.xml" />
+    <Content Include="functions1.py" />
+    <Content Include="Grafika.py" />
+    <Content Include="words.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\FETCH_HEAD" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-merge-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\push-to-checkout.sample" />
+    <None Include=".git\hooks\sendemail-validate.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\main" />
+    <None Include=".git\logs\refs\heads\svjfox" />
+    <None Include=".git\logs\refs\heads\Vitalii" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\logs\refs\remotes\origin\svjfox" />
+    <None Include=".git\objects\14\675a71a1a02d08dd3ef85398ade2e11bd102c6" />
+    <None Include=".git\objects\1e\b7169202e648b1a1c7f0303e5fb23f04e6ffe7" />
+    <None Include=".git\objects\24\37fe3d692b66b124e376f4f67a97c2ec786105" />
+    <None Include=".git\objects\32\83b152f533ac9a4bc6debc0766545f12a1fbaf" />
+    <None Include=".git\objects\38\0452dbe7c48975a99832c0046a55f570e1859a" />
+    <None Include=".git\objects\3a\50caea28496f1f8a7dfcbe3c62a61a0d518cbf" />
+    <None Include=".git\objects\47\95941adb4a605a53638faf653e6ae514506de4" />
+    <None Include=".git\objects\4f\347f7f213bbede850fced35d616885b96d3ee2" />
+    <None Include=".git\objects\53\7e56a4eb2195616c7b707e6ab95726c300d272" />
+    <None Include=".git\objects\5d\7ec932fe81bd5a00a09a1c02a7d18deab608d4" />
+    <None Include=".git\objects\60\b0be0a0342aa68ac421d14b9849aa5dd72ea17" />
+    <None Include=".git\objects\66\f703a921c9141b27e6e38ae82a64845d214cf0" />
+    <None Include=".git\objects\67\62827c5edeac2d988049f0b82eb791cffcb7e5" />
+    <None Include=".git\objects\70\aef67a00f5a48bfb0d87044cf8f151e2685b5d" />
+    <None Include=".git\objects\79\dfb6b8f4783d529895f2db291b65c352acebe4" />
+    <None Include=".git\objects\86\8870ab9d9ebfee16929e80067e0304a55ec4f6" />
+    <None Include=".git\objects\9e\c9d9dc6ba9e5ebc663490ec01ec41aa483247b" />
+    <None Include=".git\objects\af\39f2df2c754ce97a0260f52559d2fce28e21f4" />
+    <None Include=".git\objects\b5\2d04107b33c16c5ebee5060d7ecac71120aa93" />
+    <None Include=".git\objects\c9\1a11272f96a976dcfc1a975116bb0f2a7113b0" />
+    <None Include=".git\objects\cc\3a7848e5b082f449b18d31901afb7a052cb344" />
+    <None Include=".git\objects\f4\8126345a1b95a9d72a2c87056a70a630c8a975" />
+    <None Include=".git\objects\fc\8858df695b32e1595978f5ffe0c6a9a9ddf3a8" />
+    <None Include=".git\objects\pack\pack-0df5f3feccc39f24b00bfd86eb66dd4a014a6e60.idx" />
+    <None Include=".git\objects\pack\pack-0df5f3feccc39f24b00bfd86eb66dd4a014a6e60.pack" />
+    <None Include=".git\objects\pack\pack-0df5f3feccc39f24b00bfd86eb66dd4a014a6e60.rev" />
+    <None Include=".git\ORIG_HEAD" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\main" />
+    <None Include=".git\refs\heads\svjfox" />
+    <None Include=".git\refs\heads\Vitalii" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".git\refs\remotes\origin\svjfox" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include=".vs\Worlde_graaf\FileContentIndex\23ea5e51-446e-4cd4-b43b-27fe0d1d5c9a.vsidx" />
+    <None Include=".vs\Worlde_graaf\FileContentIndex\7fb7dd60-2069-4ec3-a6b6-8c59d31c6511.vsidx" />
+    <None Include=".vs\Worlde_graaf\FileContentIndex\9178c7ff-9622-44ca-8048-22508ab704d7.vsidx" />
+    <None Include=".vs\Worlde_graaf\FileContentIndex\e209a172-a5da-4bc7-8c37-9c860e3f01b7.vsidx" />
+    <None Include=".vs\Worlde_graaf\FileContentIndex\e247a3be-dc16-4ec5-8a2c-653f9e7ab171.vsidx" />
+    <None Include=".vs\Worlde_graaf\v17\.wsuo" />
+    <None Include=".vs\Worlde_graaf\v17\DocumentLayout.json" />
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
